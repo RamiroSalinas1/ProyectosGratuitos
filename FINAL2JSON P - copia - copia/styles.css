@@ -1,0 +1,396 @@
+:root {
+    --color-primario: #ff6b6b;
+    --color-secundario: #06d6a0;
+    --color-terciario: #118ab2;
+    --color-fondo: #f0f9ff;
+    --color-texto: #333;
+}
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: var(--color-fondo);
+    margin: 0;
+    padding: 20px;
+    color: var(--color-texto);
+}
+
+h1 {
+    text-align: center;
+    color: var(--color-primario);
+    text-shadow: 2px 2px 0px #fff;
+    margin-bottom: 15px;
+}
+
+/* Estilos para la nube de tags */
+.tags-cloud-container {
+    margin: 20px auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+.tags-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+}
+
+.tag {
+    background-color: #ff9e7d;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+    transform: rotate(-1deg);
+    box-shadow: 3px 3px 0px rgba(0,0,0,0.1);
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+}
+
+.tag.active {
+    background-color: var(--color-secundario);
+    transform: rotate(0deg) scale(1.1);
+    z-index: 2;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Rotaciones alternadas para los tags */
+.tag:nth-child(6n+1) { transform: rotate(-3deg); }
+.tag:nth-child(6n+2) { transform: rotate(2deg); }
+.tag:nth-child(6n+3) { transform: rotate(-1deg); }
+.tag:nth-child(6n+4) { transform: rotate(4deg); }
+.tag:nth-child(6n+5) { transform: rotate(-2deg); }
+.tag:nth-child(6n+6) { transform: rotate(1deg); }
+
+.tag:hover {
+    transform: scale(1.1) rotate(0deg) !important;
+    z-index: 10;
+}
+
+/* Contenido de las pestañas */
+.tab-content {
+    display: none;
+    animation: fadeIn 0.4s;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Estilos para los recursos */
+.contenedor-recursos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 15px;
+    padding: 10px;
+    align-items: start;
+}
+
+.recurso {
+    background-color: #ffd166;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 3px 3px 0px #ff9e7d;
+    transition: all 0.3s ease;
+    border: 2px solid #333;
+    transform: rotate(-1deg);
+    height: auto;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Colores y rotaciones alternadas */
+.recurso:nth-child(7n+1) { background-color: #ffd166; transform: rotate(-1deg); }
+.recurso:nth-child(7n+2) { background-color: #06d6a0; transform: rotate(1deg); }
+.recurso:nth-child(7n+3) { background-color: #118ab2; transform: rotate(-2deg); }
+.recurso:nth-child(7n+4) { background-color: #ff9e7d; transform: rotate(2deg); }
+.recurso:nth-child(7n+5) { background-color: #a051f6; transform: rotate(-1deg); }
+.recurso:nth-child(7n+6) { background-color: #f6a051; transform: rotate(1deg); }
+.recurso:nth-child(7n+7) { background-color: #51f6a0; transform: rotate(-2deg); }
+
+.recurso:hover {
+    transform: scale(1.03) rotate(0deg) !important;
+    z-index: 10;
+}
+
+.recurso-titulo {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.recurso-desc {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 10px;
+    flex-grow: 1;
+}
+
+/* Botón de descarga */
+.recurso-enlace {
+    background-color: white;
+    padding: 3px 8px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #333;
+    font-size: 13px;
+    border: 1px dashed #333;
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.recurso-enlace:hover {
+    background-color: #333;
+    color: white;
+}
+
+.recurso-plataforma {
+    font-size: 12px;
+    color: #777;
+    display: inline-block;
+}
+
+.recurso-tamano {
+    font-size: 12px;
+    color: #555;
+    font-style: italic;
+}
+
+/* Efectos de búsqueda */
+.recurso.encontrado {
+    animation: resaltar 0.5s;
+    border: 2px dashed var(--color-primario);
+}
+
+@keyframes resaltar {
+    0% { transform: scale(1) rotate(0deg); }
+    50% { transform: scale(1.05) rotate(1deg); }
+    100% { transform: scale(1) rotate(0deg); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Estilos para la guía */
+.guia {
+    background-color: #fff2cc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0 auto 25px;
+    max-width: 800px;
+    border: 3px dotted #ff9e7d;
+}
+
+.guia h2 {
+    margin-top: 0;
+    color: #d35400;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.guia p {
+    margin: 8px 0;
+    text-align: center;
+}
+
+/* Estilos para el footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+    color: #666;
+    padding: 15px;
+}
+
+/* Mensajes de estado */
+.error-carga {
+    text-align: center;
+    color: #d35400;
+    padding: 20px;
+    background-color: #ffe8d6;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 20px;
+    border: 1px dashed #d35400;
+}
+
+.sin-recursos {
+    text-align: center;
+    color: #555;
+    padding: 30px;
+    font-style: italic;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+/* Estilos responsive */
+@media (max-width: 900px) {
+    .contenedor-recursos {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .contenedor-recursos {
+        grid-template-columns: 1fr;
+    }
+    
+    .tag {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+    
+    .guia {
+        padding: 10px;
+    }
+}
+
+/* ==================== */
+/* PROTECCIONES DE SEGURIDAD EN CSS */
+/* ==================== */
+
+/* 1. Deshabilitar selección de texto para prevenir copia no autorizada */
+body {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+/* 2. Ocultar contenido sensible cuando se imprime la página */
+@media print {
+    .no-print, .guia, footer {
+        display: none !important;
+    }
+}
+
+/* 3. Protección contra ataques de estilo */
+a[href^="javascript:"], 
+a[href^="data:"], 
+a[href^="vbscript:"] {
+    display: none !important;
+    pointer-events: none !important;
+}
+
+/* 4. Desactivar eventos de puntero en elementos sensibles */
+.recurso-enlace[href="#"] {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.6;
+}
+
+/* 5. Protección contra keyloggers visuales */
+input[type="password"], 
+input[type="text"][autocomplete="off"] {
+    font-family: "Comic Sans MS", cursive, sans-serif; /* Usar fuente específica */
+    letter-spacing: 1px; /* Dificultar reconocimiento óptico */
+}
+
+/* 6. Ocultar enlaces rotos o no válidos */
+a:not([href]), 
+a[href=""], 
+a[href^="#"] {
+    cursor: default !important;
+    pointer-events: none !important;
+    text-decoration: none !important;
+    color: gray !important;
+}
+
+/* 7. Prevenir descargas no autorizadas */
+a[download]:not([href$=".pdf"]):not([href$=".docx"]) {
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+/* 8. Protección contra iframes maliciosos (refuerzo) */
+iframe {
+    display: none !important;
+    visibility: hidden !important;
+    width: 0 !important;
+    height: 0 !important;
+    border: none !important;
+}
+
+/* 9. Estilos para contenido inseguro/malicioso detectado */
+.recurso-malicioso, 
+.recurso-inseguro {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    width: 0 !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    left: -9999px !important;
+}
+
+/* 10. Protección contra ataques de falsificación */
+input[type="hidden"], 
+script, 
+style {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* 11. Estilos para mensajes de seguridad */
+.alerta-seguridad {
+    background-color: #ffebee !important;
+    border-left: 4px solid #f44336 !important;
+    padding: 12px !important;
+    margin: 10px 0 !important;
+    font-family: monospace !important;
+    color: #b71c1c !important;
+}
+
+/* 12. Protección contra inyección CSS */
+*[style*="expression("], 
+*[style*="javascript:"], 
+*[style*="vbscript:"] {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* 13. Ocultar metadata sensible */
+.metadata, 
+.comments, 
+.script-data {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* 14. Estilos para enlaces externos (abren en nueva pestaña) */
+a[target="_blank"]::after {
+    content: " (↗)";
+    font-size: 0.8em;
+    color: #666;
+}
+
+/* 15. Protección contra ataques de UI redressing */
+body {
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* 16. Deshabilitar doble tap en móviles */
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* 17. Estilos para formularios seguros */
+form[action^="http://"] {
+    border: 2px dashed red !important;
+}
+
+form[action^="https://"] {
+    border: 2px solid #4CAF50 !important;
+}

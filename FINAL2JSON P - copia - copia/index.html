@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mega Recursos Educativos</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="favicon.ico">
+    
+        <!-- Seguridad mejorada -->
+        <meta http-equiv="Strict-Transport-Security" content="max-age=63072000; includeSubDomains; preload">
+        <meta http-equiv="X-Content-Type-Options" content="nosniff">
+        <meta http-equiv="X-Frame-Options" content="DENY">
+        <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=(), payment=()">
+        <meta name="referrer" content="strict-origin-when-cross-origin">
+        <meta name="robots" content="noindex, nofollow">
+        
+        <!-- CSP más estricta y detallada -->
+        <meta http-equiv="Content-Security-Policy" content="
+            default-src 'none';
+            base-uri 'self';
+            form-action 'self';
+            frame-ancestors 'none';
+            script-src 'self' 'unsafe-inline';
+            style-src 'self' 'unsafe-inline';
+            img-src 'self' data:;
+            font-src 'self';
+            connect-src 'self';
+            manifest-src 'self';
+            object-src 'none';
+            worker-src 'none';
+            media-src 'self';
+        ">
+    </head>
+<body>
+    <h1>📚 Mega Recursos Educativos</h1>
+
+    <div class="guia">
+        <h2>📋 Cómo usar estos recursos</h2>
+        <ul style="list-style-type: none; padding-left: 0; margin-top: -10px;">
+            <li>✅ Haz clic en el enlace para descargar o visualizar el archivo</li>
+            <li>📁 <strong>Plataformas disponibles:</strong> Drive, MEGA, MediaFire, Dropbox, OneDrive, y más</li>
+            <li>❓ <strong>¿Enlace roto?</strong> Envíanos el curso a <a href="mailto:soporte@recursosacademicos.com">soporte@recursosacademicos.com</a> y te enviaremos un enlace en 24h</li>
+            <li>🛡️ <strong>¿Desconfías del archivo?</strong> Escanéalo en <a href="https://www.virustotal.com" style="color: #2980b9;" rel="noopener noreferrer nofollow">VirusTotal</a> para verificar si contiene algo sospechoso o anómalo</li>
+        </ul>
+    </div>
+    
+    <!-- Pestañas como nube de tags -->
+    <div class="tags-cloud-container">
+        <div class="tags-cloud">
+            <span class="tag active" onclick="openTab('programacion')">💻 Programación</span>
+            <span class="tag" onclick="openTab('diseno')">🎨 Diseño</span>
+            <span class="tag" onclick="openTab('idiomas')">🌐 Idiomas</span>
+            <span class="tag" onclick="openTab('libros')">📚 Libros</span>
+            <span class="tag" onclick="openTab('ofimatica')">📊 Ofimática</span>
+            <span class="tag" onclick="openTab('negocios')">💼 Negocios</span>
+            <span class="tag" onclick="openTab('fotografia')">📷 Fotografía</span>
+            <span class="tag" onclick="openTab('video')">🎥 Video</span>
+            <span class="tag" onclick="openTab('manualidades')">🛠️ Manualidades</span>
+            <span class="tag" onclick="openTab('videojuegos')">🎮 Videojuegos</span>
+            <span class="tag" onclick="openTab('otros')">✨ Otros</span>
+            <span class="tag" onclick="openTab('entretenimiento')">🎬 Entretenimiento</span>
+        </div>
+    </div>
+
+    <!-- Contenedores de recursos (se llenan dinámicamente) -->
+    <div id="programacion" class="tab-content active">
+        <div class="contenedor-recursos"></div>
+    </div>
+
+    <div id="diseno" class="tab-content">
+        <div class="contenedor-recursos"></div>
+    </div>
+
+    <div id="idiomas" class="tab-content">
+        <div class="contenedor-recursos"></div>
+    </div>
+
+    <div id="libros" class="tab-content">
+        <div class="contenedor-recursos"></div>
+    </div>
+
+    <div id="ofimatica" class="tab-content">
+        <div class="contenedor-recursos"></div>
+    </div>
+
+    <div id="negocios" class="tab-content">
+        <div class="contenedor-recursos"></div>
+    </div>
+
+    <div id="fotografia" class="tab-content">
+        <div class="contenedor-recursos"></div>
+    </div>
+
+    <div id="video" class="tab-content">
+        <div class="contenedor-recursos"></div>
+    </div>
+
+    <div id="manualidades" class="tab-content">
+        <div class="contenedor-recursos"></div>
+    </div>
+
+    <div id="videojuegos" class="tab-content">
+        <div class="contenedor-recursos"></div>
+    </div>
+
+    <div id="otros" class="tab-content">
+        <div class="contenedor-recursos"></div>
+    </div>
+
+    <div id="entretenimiento" class="tab-content">
+        <div class="contenedor-recursos"></div>
+    </div>
+
+    <footer>
+        <p>© 2023 Mega Recursos Educativos | <span id="total-recursos">0</span> recursos disponibles</p>
+        <p>Contacto: <a href="mailto:contacto@megarecursos.com" style="color: #2980b9;">contacto@megarecursos.com</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+[
+    {
+        "titulo": "Mega Pack de Cursos (JavaScript, Python, PHP, SQL)",
+        "descripcion": "Pack completo con 15 cursos de programación",
+        "enlace": "https://drive.google.com/drive/folders/1jvGNfhi4QqJK6LzU0d_0tN8fRa55jlzB",
+        "plataforma": "Google Drive",
+        "tamano": ""
+    },
+    {
+        "titulo": "Curso Completo Lenguaje C",
+        "descripcion": "Desde básico hasta avanzado",
+        "enlace": "https://drive.google.com/drive/folders/1o_njE2B908GSrGNvrQ_I89qnadm_RkIc",
+        "plataforma": "Google Drive",
+        "tamano": ""
+    },
+    {
+        "titulo": "Curso Completo de JavaScript (150+ módulos)",
+        "descripcion": "El curso más completo de JS disponible",
+        "enlace": "https://drive.google.com/drive/folders/17WtL6s6J-25YauMmtf4TKpsXqCSbkiGH",
+        "plataforma": "Google Drive",
+        "tamano": ""
+    },
+    {
+        "titulo": "Curso de Desarrollo Web (100 horas)",
+        "descripcion": "HTML5, CSS3, JS, AJAX, PHP, MySQL",
+        "enlace": "https://drive.google.com/drive/folders/1enD-k6pcioHMMEC1ZM9XuCwSfw_uWaS_",
+        "plataforma": "Google Drive",
+        "tamano": ""
+    },
+    {
+        "titulo": "Curso Básico de Amazon AWS",
+        "descripcion": "Introducción a servicios en la nube",
+        "enlace": "https://drive.google.com/drive/folders/1gFiqUrAZ8TV_7b_HQD3Uxz0-449oTrF_",
+        "plataforma": "Google Drive",
+        "tamano": ""
+    },
+    {
+        "titulo": "Manual de Programación en Java",
+        "descripcion": "Aprende a programar en Java",
+        "enlace": "https://guiainclusiva.es/courses/descubre-este-manual-para-programar-en-java/",
+        "plataforma": "Web",
+        "tamano": ""
+    },
+    {
+        "titulo": "Curso Completo de Lógica de Programación",
+        "descripcion": "Fundamentos esenciales para programar",
+        "enlace": "https://drive.google.com/drive/mobile/folders/1YNKYjsh7bWWArH5g4-kF6ofhzMAjTIRX?fbclid=IwAR0kO-dj3bIghnPSHoxjSzZcAdvdQzf1UVVXipnRyO7b0Wug6C-d47KYV1g",
+        "plataforma": "Google Drive",
+        "tamano": ""
+    },
+    {
+        "titulo": "Curso Completo de Angular",
+        "descripcion": "28 módulos y 75 horas de clases",
+        "enlace": "https://drive.google.com/drive/mobile/folders/11z7-rr-kpvFCpq3vQgt2E3SYYsz-1pR-?fbclid=IwAR0rpmHp3BAlSDvFYXdpRbOyjC7TxLpoe92-CKY7vvbRpAjE4bE0bN8AkOo",
+        "plataforma": "Google Drive",
+        "tamano": ""
+    },
+    {
+        "titulo": "Curso de Inteligencia Artificial y Deep Learning desde 0 en Python",
+        "descripcion": "Introducción a IA con Python",
+        "enlace": "https://teraboxapp.com/s/1sUSUl6t_Eph63PJfJlFIwA",
+        "plataforma": "Terabox",
+        "tamano": ""
+    },
+    {
+        "titulo": "Curso Completo para Aprender a Programar en Cualquier Lenguaje",
+        "descripcion": "El curso más completo de programación",
+        "enlace": "https://guiainclusiva.es/courses/curso-para-aprender-a-programar-cualquier-lenguaje/",
+        "plataforma": "Web",
+        "tamano": ""
+    },
+    {
+        "titulo": "Curso de Programación SQL",
+        "descripcion": "Aprende programación con SQL",
+        "enlace": "https://guiainclusiva.es/courses/curso-sobre-programacion-sql/",
+        "plataforma": "Web",
+        "tamano": ""
+    },
+    {
+        "titulo": "Aprende Linux desde 0",
+        "descripcion": "Curso completo de Linux",
+        "enlace": "https://guiainclusiva.es/courses/curso-para-aprender-linux-desde-cero/",
+        "plataforma": "Web",
+        "tamano": ""
+    },
+    {
+        "titulo": "Python de 0 a Experto",
+        "descripcion": "Curso completo de Python",
+        "enlace": "https://t.co/6BhaAIL738",
+        "plataforma": "Web",
+        "tamano": ""
+    },
+    {
+        "titulo": "Curso de Programación de un Videojuego con JavaScript",
+        "descripcion": "Desarrollo de videojuegos con JS",
+        "enlace": "https://drive.google.com/drive/mobile/folders/1lIe3vbQhsZm3o4RZPba7bFJ0powv1O_3?fbclid=IwAR23DUx-qoaRcWU5bgJfk_NB7CLGvHwVbx38QjvigiO2LDFg_sRTVmvaUg8",
+        "plataforma": "Google Drive",
+        "tamano": ""
+    },
+    {
+        "titulo": "Curso de Creación de Aplicaciones con Android Studio",
+        "descripcion": "Desarrollo de apps para Android",
+        "enlace": "https://guiainclusiva.es/courses/curso-sobre-creacion-de-aplicaciones-con-android-studio/",
+        "plataforma": "Web",
+        "tamano": ""
+    },
+    {
+        "titulo": "Curso de Desarrollo Web en Google",
+        "descripcion": "Desarrollo web con tecnologías de Google",
+        "enlace": "https://guiainclusiva.es/courses/curso-de-desarrollo-web-de-google/",
+        "plataforma": "Web",
+        "tamano": ""
+    },
+    {
+        "titulo": "Curso de Hacking Android",
+        "descripcion": "Aprende sobre seguridad en Android",
+        "enlace": "https://guiainclusiva.es/courses/hacking-android/",
+        "plataforma": "Web",
+        "tamano": ""
+    },
+    {
+        "titulo": "Curso de Hacking Ético y Ciberseguridad",
+        "descripcion": "Fundamentos de seguridad informática",
+        "enlace": "https://drive.google.com/drive/mobile/folders/1Xc7hpAo0Jsyw8THlW2gmE7UledjDrH1g",
+        "plataforma": "Google Drive",
+        "tamano": ""
+    },
+    {
+        "titulo": "Curso de Introducción al Desarrollo de Videojuegos",
+        "descripcion": "Fundamentos del desarrollo de juegos",
+        "enlace": "https://drive.google.com/drive/mobile/folders/1pAIECZnlZpClckiwLpO6UsByAl9_opOZ",
+        "plataforma": "Google Drive",
+        "tamano": ""
+    },
+    {
+        "titulo": "Curso de Creación y Consulta de Bases de Datos con ChatGPT y SQL",
+        "descripcion": "Integración de IA con bases de datos",
+        "enlace": "https://drive.google.com/drive/mobile/folders/1ePA7EVH2JEZeKl8Hc8MAJX3rFoItFrFR?usp=sharing&fbclid=IwAR2qJpSu1dylqUhluOh_ODnuuzYUwNZynBQdknyFdcTv5OFoK7dRvUWq_6M",
+        "plataforma": "Google Drive",
+        "tamano": ""
+    },
+    {
+        "titulo": "Curso de Hacking Ético",
+        "descripcion": "Seguridad informática avanzada",
+        "enlace": "https://drive.google.com/drive/mobile/folders/1pxLo0Sw1lnbTMvAChk58VGyjs6ynT4DN/17_H2PFlvn7-mL-fvd6iuSrawOL48V7tu?usp=sharing&fbclid=IwZXh0bgNhZW0CMTEAAR0ouqWx5eTTG2gsrc6eJqzAcAiWNhy0nVii2xtzTl9T-B-gLolCu58aGok_aem_AfMyjb2muDy40z45DY7ZVJj-jdXGswNQ4LCrvormO8mC9oH6JOJj79lStonOjAcjHq3ifUgCq2XiZKRPFDbKabgs&sort=13&direction=a",
+        "plataforma": "Google Drive",
+        "tamano": ""
+    },
+    {
+        "titulo": "2500 LIBROS DE PROGRAMACIÓN",
+        "descripcion": "Colección masiva de libros digitales para programadores",
+        "enlace": "https://drive.google.com/drive/mobile/folders/1hdSylyYGvshO7SLYz7y5ZbYEo67WKFB3?fbclid=IwAR2Rf56i7ue3bw0YBesnJO8-LdzBvl5lpuza0Pnme3TjYt7Dg1VuGweK-Qg",
+        "plataforma": "Google Drive",
+        "tamano": "Colección completa"
+    },
+    {
+        "titulo": "CURSO DE PYTHON EN 16 DÍAS",
+        "descripcion": "Aprendizaje intensivo con proyectos",
+        "enlace": "https://www.mediafire.com/folder/uqjkl6el9q9xv/PYTHON+TOTAL?fbclid=IwZXh0bgNhZW0CMTEAAR1lCAaln_BXY_6DGUf_fb8xEf6DD_LXLV5I1QBl5fMhDbP2wHRU7X1QifY_aem_AeK5dyu4P_BLAKzjbAIIy18xDgjDB8X4B8Th7akkgpi1KuVVp8-1-SY-JeDS578zEWi9acrANUK13RZ8AYHFLfk4",
+        "plataforma": "Mediafire",
+        "tamano": ""
+    },
+    {
+        "titulo": "CURSO DE SEGURIDAD INFORMÁTICA PARA NO INFORMÁTICOS",
+        "descripcion": "Protección básica contra ciberamenazas",
+        "enlace": "https://drive.google.com/drive/mobile/folders/1KPgjM1TOVmVJTWmkNvNddWYkkEzE9X6B?fbclid=IwAR2ohJNd9SW_G2EAMCqA-6HsPoIWUOI-tA33a-ROk2w24ReahzpbA76rRRI",
+        "plataforma": "Google Drive",
+        "tamano": ""
+    },
+    {
+        "titulo": "CURSO DE HACKING ÉTICO",
+        "descripcion": "Técnicas avanzadas de seguridad",
+        "enlace": "https://drive.google.com/drive/mobile/folders/1pxLo0Sw1lnbTMvAChk58VGyjs6ynT4DN/17_H2PFlvn7-mL-fvd6iuSrawOL48V7tu?usp=sharing&fbclid=IwZXh0bgNhZW0CMTEAAR0ouqWx5eTTG2gsrc6eJqzAcAiWNhy0nVii2xtzTl9T-B-gLolCu58aGok_aem_AfMyjb2muDy40z45DY7ZVJj-jdXGswNQ4LCrvormO8mC9oH6JOJj79lStonOjAcjHq3ifUgCq2XiZKRPFDbKabgs&sort=13&direction=a",
+        "plataforma": "Google Drive",
+        "tamano": ""
+    },
+    {
+        "titulo": "CURSO DE CIBERSEGURIDAD PARA EMPRESAS",
+        "descripcion": "Protección de sistemas empresariales",
+        "enlace": "https://drive.google.com/drive/mobile/folders/1VUW7ekgPWkQSgzEmOtXI9u_cmVA9h93s",
+        "plataforma": "Google Drive",
+        "tamano": ""
+    }
+]
